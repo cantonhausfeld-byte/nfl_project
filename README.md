@@ -1,7 +1,13 @@
 # NFL Project
 
-Tools and scripts for scraping, cleaning, and modeling NFL data.
-Includes SRS calculations, web scraping, and fantasy football helpers.
+A Python-based toolkit for collecting, analyzing, and modeling NFL team and game data.
+
+## Features
+
+- Automated data scraping and cleaning
+- Strength of Schedule (SoS) and SRS calculations
+- Fantasy and betting analysis
+- Data pipeline suitable for ML models
 
 ## Setup
 
