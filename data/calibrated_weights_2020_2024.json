@@ -1,0 +1,46 @@
+{
+  "features": [
+    "roll3_pd_diff",
+    "roll5_pd_diff",
+    "roll3_pf_diff",
+    "roll3_pa_diff",
+    "is_dome",
+    "temp",
+    "wind"
+  ],
+  "ols": {
+    "train_mae": 6.845683094956414,
+    "valid_mae": 6.730381478191879,
+    "train_r2": 0.6222117426130561,
+    "valid_r2": 0.6389502662307144,
+    "coefficients": {
+      "roll3_pd_diff": 0.4519497182258093,
+      "roll5_pd_diff": 0.018398438319158772,
+      "roll3_pf_diff": 0.26564400079732997,
+      "roll3_pa_diff": -0.18630571742847823,
+      "is_dome": 2.6975032788412436,
+      "temp": -0.03347773183162376,
+      "wind": 0.0054969149523728085
+    },
+    "intercept": 2.933847908185405
+  },
+  "logistic": {
+    "train_acc": 0.8141923436041083,
+    "valid_acc": 0.7794117647058824,
+    "train_logloss": 0.439468955620247,
+    "valid_logloss": 0.43027645551729116,
+    "train_roc_auc": 0.8772397230060426,
+    "valid_roc_auc": 0.8803692641868043,
+    "coefficients": {
+      "roll3_pd_diff": 0.08384020104783432,
+      "roll5_pd_diff": 0.0187808399292095,
+      "roll3_pf_diff": 0.05571133915972825,
+      "roll3_pa_diff": -0.028128861888107478,
+      "is_dome": 0.11378460096878887,
+      "temp": -0.00542392401435422,
+      "wind": 0.009167565390799765
+    },
+    "intercept": 0.38031279881721547
+  },
+  "note": "Trained on 2020-2023, validated on 2024."
+}
