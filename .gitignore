@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local data artifacts
+*.csv
+data/*.csv
+!data/odds_*.csv          # keep small sample odds
+!data/picks_*.csv         # keep small weekly picks if you want them versioned
+data/*.parquet
+*.parquet
+
+# Scratch / one-off scripts
+fetch_2023_games.py
+data/fetch_games_sportsipy.py
+data/pull_games.py
+data/scrape_nfl_history.py
+
+# Editor/OS junk
+.DS_Store
+.vscode/
+
+# Local data artifacts
+*.csv
+data/*.csv
+!data/odds_*.csv          # keep small sample odds
+!data/picks_*.csv         # keep small weekly picks if you want them versioned
+data/*.parquet
+*.parquet
+
+# Scratch / one-off scripts
+fetch_2023_games.py
+data/fetch_games_sportsipy.py
+data/pull_games.py
+data/scrape_nfl_history.py
+
+# Editor/OS junk
+.DS_Store
+.vscode/
